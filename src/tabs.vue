@@ -102,7 +102,18 @@ export default {
 
 <style lang="stylus" scoped>
 @import '../node_modules/nib/index.styl'
-@import './common.styl'
+
+$color-border = #eee
+$color-theme = rgb(212, 68, 57)
+$font-size-base = 14px
+
+border-1px()
+	&::after
+		content: ''
+		absolute: bottom 0 left 0 right 0
+		height: 1px
+		transform: translateY(0.5)
+		background: $color-border
 
 .tabs
 	&-titles
@@ -117,9 +128,9 @@ export default {
 
 		.scroll-bar
 			absolute: bottom 0
-			background: $color-theme
-			height: 2px
 			z-index: 1
+			border-bottom: 2px solid $color-theme
+			border-radius: 5px
 			transition: all 0.3s
 
 	&-content
@@ -135,4 +146,3 @@ export default {
 				size: 100%
 				font-size: $font-size-base
 </style>
-ov
