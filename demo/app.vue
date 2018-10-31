@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import Tabs from "../dist/vue-slide-tabs.esm.js";
+import Tabs from "vue-slide-tabs";
 
 export default {
   name: "app",
