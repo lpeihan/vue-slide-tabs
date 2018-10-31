@@ -2,8 +2,8 @@
   <div class="app">
     <tabs :tabs="tabs" class="tab-container">
       <div>1</div>
-      <div>2</div>
-      <div>3</div>
+      <div>22</div>
+      <div>33</div>
     </tabs>
   </div>
 </template>
