@@ -1,6 +1,10 @@
 <template>
   <div class="app">
-    <tabs />
+    <tabs :tabs="tabs" class="tab-container">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </tabs>
   </div>
 </template>
 
@@ -11,6 +15,21 @@ export default {
   name: "app",
   components: {
     Tabs
+  },
+  data() {
+    return {
+      tabs: [
+        {
+          label: "关注"
+        },
+        {
+          label: "推荐"
+        },
+        {
+          label: "最新"
+        }
+      ]
+    }
   }
 }
 </script>
@@ -19,8 +38,8 @@ export default {
 @import '../node_modules/nib/index.styl'
 
 normalize-css()
-$color-theme = rgb(212, 68, 57)
 
 .app
-  color: red
+  .tab-container
+    height: 100vh
 </style>
