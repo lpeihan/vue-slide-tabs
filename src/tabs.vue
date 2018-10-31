@@ -111,9 +111,8 @@ border-1px()
 	&::after
 		content: ''
 		absolute: bottom 0 left 0 right 0
-		height: 1px
+		border-bottom: 1px solid $color-border
 		transform: translateY(0.5)
-		background: $color-border
 
 .tabs
 	&-titles
