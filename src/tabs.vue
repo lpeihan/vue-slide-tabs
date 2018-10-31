@@ -17,7 +17,7 @@
     >
       <div class="wrapper" :style="{
 				transform: `translate3d(${translateX - tabIndex * width}px, 0, 0)`,
-				transition: touching ? '' : 'all .3s'
+				transition: touching ? '' : 'transform .3s'
 			}">
         <slot></slot>
       </div>
@@ -130,7 +130,7 @@ border-1px()
 			z-index: 1
 			border-bottom: 2px solid $color-theme
 			border-radius: 5px
-			transition: all 0.3s
+			transition: transform 0.3s
 
 	&-content
 		height: calc(100% - 44px)
