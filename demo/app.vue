@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import Tabs from "./tabs";
+import Tabs from "../src/tabs";
 
 export default {
   name: "app",
