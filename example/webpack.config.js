@@ -47,7 +47,7 @@ module.exports = {
         noInfo: true,
         overlay: true,
         open: true,
-        contentBase: path.join(__dirname)
+        contentBase: path.join(__dirname, 'dist')
     },
     performance: {
         hints: false
