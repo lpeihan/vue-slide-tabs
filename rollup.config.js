@@ -15,7 +15,7 @@ export default {
         },
         // browser-friendly UMD build
         {
-            name: "vue-slide-tabs",
+            name: "VueSlideTabs",
             file: pkg.unpkg,
             format: "umd"
         }

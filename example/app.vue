@@ -1,7 +1,7 @@
 <template>
   <div class="app">
     <tabs :tabs="tabs" class="tab-container">
-      <div>1</div>
+      <div>11</div>
       <div>22</div>
       <div>33</div>
     </tabs>
