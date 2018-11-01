@@ -93,14 +93,12 @@ export default {
 			return (this.dx < 0 && this.tabIndex >= this.tabs.length - 1) || (this.dx > 0 && this.tabIndex === 0);
 		},
 		resizeWidth() {
-			console.log('ddd');
 			this.width = this.$el.clientWidth;
 			this.tabWidth = Math.round(this.width / this.tabs.length);
 		}
 	},
   mounted() {
 		this.resizeWidth();
-		console.log('dd')
 
 		window.addEventListener('resize', this.resizeWidth);
   }
