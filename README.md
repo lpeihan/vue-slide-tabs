@@ -2,17 +2,48 @@
 
 > A vue.js slider tabs for mobile
 
-## Build Setup
+## Installation
 
-```bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
+```shell
+npm install vue-slide-tabs --save
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# Usage
+
+```html
+<template>
+  <div class="app">
+    <tabs :tabs="tabs" class="tab-container">
+      <div>This is first tab</div>
+      <div>This is second tab</div>
+      <div>This is third tab</div>
+    </tabs>
+  </div>
+</template>
+
+<script>
+import Tabs from "vue-slide-tabs";
+
+export default {
+  name: "app",
+  components: {
+    Tabs
+  },
+  data() {
+    return {
+      tabs: [
+        {
+          label: "关注"
+        },
+        {
+          label: "推荐"
+        },
+        {
+          label: "最新"
+        }
+      ]
+    };
+  }
+};
+</script>
+```

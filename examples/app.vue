@@ -1,9 +1,9 @@
 <template>
   <div class="app">
     <tabs :tabs="tabs" class="tab-container">
-      <div>11</div>
-      <div>22</div>
-      <div>33</div>
+      <div>This is first tab</div>
+      <div>This is second tab</div>
+      <div>This is third tab</div>
     </tabs>
   </div>
 </template>
