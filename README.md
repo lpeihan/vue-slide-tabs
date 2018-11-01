@@ -2,6 +2,10 @@
 
 > A vue.js slider tabs for mobile
 
+## Demo
+
+https://lpeihan.github.io/vue-slide-tabs/
+
 ## Installation
 
 ```shell
