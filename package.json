@@ -26,6 +26,7 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config examples/webpack.config.js --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --config examples/webpack.config.js",
     "dist": "rollup -c",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d examples/dist"
   },
   "dependencies": {
