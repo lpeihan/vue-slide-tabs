@@ -75,7 +75,7 @@
     },
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "**/*.{js,vue}",
+      "src/tabs.vue",
       "!**/node_modules/**"
     ],
     "coverageReporters": [
