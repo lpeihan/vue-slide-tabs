@@ -18,7 +18,7 @@ describe("vue-slide-tabs", () => {
     }
   });
 
-  console.log("33333", wrapper.vm.tabs.length);
+  console.log("33333d", wrapper.vm.tabs.length);
 
   it("The title's length should be 3", () => {
     const divArray = wrapper.findAll("div.title-item");
