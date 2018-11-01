@@ -5,6 +5,7 @@
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/minzip/vue-slide-tabs.svg)](https://www.npmjs.com/package/vue-slide-tabs)
 [![GitHub issues](https://img.shields.io/github/issues/lpeihan/vue-slide-tabs.svg)](https://github.com/lpeihan/vue-slide-tabs)
 [![npm](https://img.shields.io/npm/dt/vue-slide-tabs.svg)](https://www.npmjs.com/package/vue-slide-tabs)
+[![Build Status](https://travis-ci.org/lpeihan/vue-slide-tabs.svg?branch=master)](https://travis-ci.org/lpeihan/vue-slide-tabs)
 
 > A vue.js slider tabs for mobile
 
