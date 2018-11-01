@@ -1,5 +1,8 @@
 # vue-slide-tabs
 
+[![npm](https://img.shields.io/npm/v/vue-slide-tabs.svg)](https://www.npmjs.com/package/vue-slide-tabs)
+[![NpmLicense](https://img.shields.io/npm/l/vue-slide-tabs.svg)](https://www.npmjs.com/package/vue-slide-tabs)
+
 > A vue.js slider tabs for mobile
 
 ## Demo
