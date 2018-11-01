@@ -7,5 +7,7 @@ brancher:
   - "dev"
 install:
   - "npm install"
+  - "npm install -g codecov"
 script:
   - "npm run test"
+  - "codecov"
