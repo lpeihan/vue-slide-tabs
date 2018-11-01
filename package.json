@@ -1,7 +1,7 @@
 {
   "name": "vue-slide-tabs",
   "description": "A vue.js slider tabs for mobile",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "lpeihan <“291630202@qq.com”>",
   "license": "MIT",
   "main": "dist/vue-slide-tabs.cjs.js",
@@ -23,8 +23,8 @@
     "url": "https://github.com/lpeihan/vue-slide-tabs/issues"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server --config example/webpack.config.js --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --config example/webpack.config.js",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --config examples/webpack.config.js --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --config examples/webpack.config.js",
     "dist": "rollup -c",
     "deploy": "gh-pages -d examples/dist"
   },
