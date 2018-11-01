@@ -6,7 +6,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/lpeihan/vue-slide-tabs.svg)](https://github.com/lpeihan/vue-slide-tabs)
 [![npm](https://img.shields.io/npm/dt/vue-slide-tabs.svg)](https://www.npmjs.com/package/vue-slide-tabs)
 [![Build Status](https://travis-ci.org/lpeihan/vue-slide-tabs.svg?branch=master)](https://travis-ci.org/lpeihan/vue-slide-tabs)
-
+[![codecov](https://codecov.io/gh/lpeihan/vue-slide-tabs/branch/master/graph/badge.svg)](https://codecov.io/gh/lpeihan/vue-slide-tabs)
 > A vue.js slider tabs for mobile
 
 ## Demo
