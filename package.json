@@ -27,14 +27,17 @@
     "build": "cross-env NODE_ENV=production webpack --progress --config examples/webpack.config.js",
     "dist": "rollup -c",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d examples/dist"
+    "deploy": "gh-pages -d examples/dist",
+    "test": "cross-env NODE_ENV=test jest"
   },
   "dependencies": {
     "vue": "^2.5.11",
     "vue-slide-tabs": "^1.0.0"
   },
   "devDependencies": {
+    "@vue/test-utils": "^1.0.0-beta.25",
     "babel-core": "^6.26.0",
+    "babel-jest": "^23.6.0",
     "babel-loader": "^7.1.2",
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-3": "^6.24.1",
@@ -42,12 +45,15 @@
     "css-loader": "^0.28.7",
     "file-loader": "^1.1.4",
     "gh-pages": "^2.0.1",
+    "jest": "^23.6.0",
     "nib": "^1.1.2",
+    "regenerator-runtime": "^0.11.0",
     "rollup": "^0.66.6",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-vue": "^4.3.2",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
+    "vue-jest": "^3.0.0",
     "vue-loader": "^13.0.5",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0",
@@ -57,5 +63,24 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "vue"
+    ],
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
+      ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest"
+    },
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/*.{js,vue}",
+      "!**/node_modules/**"
+    ],
+    "coverageReporters": [
+      "html",
+      "text-summary"
+    ]
+  }
 }

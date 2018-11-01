@@ -27,6 +27,7 @@
 
 <script>
 export default {
+	name: "vue-slide-tabs",
   props: {
 	tabs: {
 		type: Array,
