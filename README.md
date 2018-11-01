@@ -1,10 +1,10 @@
-# vue-tabs
+# vue-slide-tabs
 
-> A Vue.js project
+> A vue.js slider tabs for mobile
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
