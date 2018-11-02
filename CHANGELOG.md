@@ -1,11 +1,13 @@
-## [1.0.9](https://github.com/lpeihan/vue-slide-tabs/compare/v1.0.8...v1.0.9) (2018-11-02)
+# [1.1.0](https://github.com/lpeihan/vue-slide-tabs/compare/v1.0.8...v1.1.0) (2018-11-02)
 
 
 ### Features
 
 * codecov ([68308e2](https://github.com/lpeihan/vue-slide-tabs/commit/68308e2))
+* tab切换时派发事件 ([41c1e5c](https://github.com/lpeihan/vue-slide-tabs/commit/41c1e5c))
 * 引入 jest ([5919fd4](https://github.com/lpeihan/vue-slide-tabs/commit/5919fd4))
 * 新增 .travis.yml ([2bd0d1b](https://github.com/lpeihan/vue-slide-tabs/commit/2bd0d1b))
+* 新增 changelog ([c0f2f7c](https://github.com/lpeihan/vue-slide-tabs/commit/c0f2f7c))
 * 新增 coverage 徽章 ([745e7dd](https://github.com/lpeihan/vue-slide-tabs/commit/745e7dd))
 
 
@@ -15,6 +17,7 @@
 * 修改测试用例 ([5739e20](https://github.com/lpeihan/vue-slide-tabs/commit/5739e20))
 * 删除 coverage ([f4270de](https://github.com/lpeihan/vue-slide-tabs/commit/f4270de))
 * 新增 travis-ci 图标 ([fcd3429](https://github.com/lpeihan/vue-slide-tabs/commit/fcd3429))
+* 新增changelog ([1e4e798](https://github.com/lpeihan/vue-slide-tabs/commit/1e4e798))
 
 
 
