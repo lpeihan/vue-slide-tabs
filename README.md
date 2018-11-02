@@ -8,6 +8,7 @@
 
 [![Build Status](https://travis-ci.org/lpeihan/vue-slide-tabs.svg?branch=master)](https://travis-ci.org/lpeihan/vue-slide-tabs)
 [![codecov](https://codecov.io/gh/lpeihan/vue-slide-tabs/branch/master/graph/badge.svg)](https://codecov.io/gh/lpeihan/vue-slide-tabs)
+
 > A vue.js slider tabs for mobile
 
 ## Demo
@@ -20,7 +21,7 @@ https://lpeihan.github.io/vue-slide-tabs/
 npm install vue-slide-tabs --save
 ```
 
-# Usage
+## Usage
 
 ```html
 <template>
@@ -59,3 +60,17 @@ export default {
 };
 </script>
 ```
+
+## Options
+
+### Props
+
+| Option | Type  | Description | Default |
+| ------ | ----- | ----------- | ------- |
+| tabs   | Array | tabs        | []      |
+
+### Events
+
+| Option | Description                      | params   |
+| ------ | -------------------------------- | -------- |
+| change | triggers when current tab change | tabIndex |

@@ -98,6 +98,11 @@ export default {
 			this.tabWidth = Math.round(this.width / this.tabs.length);
 		}
 	},
+	watch: {
+		tabIndex(newVal) {
+			this.$emit('change', newVal);
+		}
+	},
   mounted() {
 		this.resizeWidth();
 
