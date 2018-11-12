@@ -13,7 +13,7 @@ describe("vue-slide-tabs", () => {
   });
 
   const tabs = wrapper.vm.$options.props.tabs;
-  it('tabs is of type array', () => {
+  it('tabs is of type array~', () => {
     expect(tabs.type).toBe(Array);
   })
 
