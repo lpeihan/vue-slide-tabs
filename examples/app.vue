@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <tabs :tabs="tabs" class="tab-container">
+    <tabs :tabs="tabs" class="tab-container" @change="onTabChange">
       <div>This is first tab</div>
       <div>This is second tab</div>
       <div>This is third tab</div>
@@ -29,6 +29,11 @@ export default {
           label: "最新"
         }
       ]
+    }
+  },
+  methods: {
+    onTabChange(tabIndex) {
+      console.log(tabIndex);
     }
   }
 }
