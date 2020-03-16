@@ -52,7 +52,8 @@ export default {
       this.tabIndex = index;
     },
     handleTouchstart(e) {
-      this.touching = true;
+			this.touching = true;
+			this.dx = 0;
 
       this.startX = e.touches[0].pageX;
       this.startY = e.touches[0].pageY;
